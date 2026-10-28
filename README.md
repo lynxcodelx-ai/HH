@@ -21,7 +21,7 @@ copy .env.example .env.local
 npm run dev
 ```
 
-Open the local URL printed by Vite. The full flow still works without an API key; it labels that result as a local demo diagnosis.
+Open the local URL printed by Vite. The full recovery flow works without an API key and labels that result as a local demo diagnosis. To exercise the server-side Groq route locally, use `npx vercel dev` after linking the project; the simplest live-key test is the Vercel preview deployment below.
 
 ## Deploy to Vercel
 
